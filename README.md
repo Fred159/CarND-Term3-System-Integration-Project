@@ -8,7 +8,7 @@
 
 ### Results
 
-[![Youtube Video of simulation](https://github.com/Fred159/CarND-Term3-System-Integration-Project/blob/master/resultsIMG/Initialize_state.png)](https://github.com/Fred159/CarND-Term3-System-Integration-Project/blob/master/resultsIMG/Initialize_state.png)
+[![Youtube Video of simulation](https://github.com/Fred159/CarND-Term3-System-Integration-Project/blob/master/resultsIMG/Initialize_state.png)](https://youtu.be/co9v8uI5phI "Simulation results")
 
 ### Other things to do
 - Recognize the traffic light like in real world
