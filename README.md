@@ -8,7 +8,7 @@ Whole algorithm is based on ROS system. There are three main part.
 ![whole process](https://github.com/Fred159/CarND-Term3-System-Integration-Project/blob/master/imgs/final-project-ros-graph-v2.png)
 
 The code structure is shown as below.
-
+![Code Structure of Project](https://github.com/Fred159/CarND-Term3-System-Integration-Project/blob/master/resultsIMG/Code_structure.png)
 
 ### Issues with udacity repo 
 - I think In system integration project. The message type 'float32 steering_wheel_angle_cmd' should be change into 'float32 steering_wheel_cmd' . Because I think as link shows there are no message named with 'float32 steering_wheel_angle_cmd' (refer to [this link](https://bitbucket.org/DataspeedInc/dbw_mkz_ros/src/default/dbw_mkz_msgs/msg/SteeringReport.msg))
@@ -17,13 +17,16 @@ The code structure is shown as below.
 The simulation results shows that algorithm works appropriately. Sometimes I think the PID controller should be tuned more.
 
 - Success build
+![Success build](https://github.com/Fred159/CarND-Term3-System-Integration-Project/blob/master/resultsIMG/Success_run.png)
 
 - Initialization
+![initialization](https://github.com/Fred159/CarND-Term3-System-Integration-Project/blob/master/resultsIMG/Initialize_state.png)
 
 - Stop at red line
+![Stop at red line](https://github.com/Fred159/CarND-Term3-System-Integration-Project/blob/master/resultsIMG/Stop_at_stopline_redlight.png)
 
 - Go when light change into green
-
+![Go when green light](https://github.com/Fred159/CarND-Term3-System-Integration-Project/blob/master/resultsIMG/Move_when_lightgreen.png)
 
 [![Youtube Video of simulation](https://github.com/Fred159/CarND-Term3-System-Integration-Project/blob/master/resultsIMG/Initialize_state.png)](https://youtu.be/co9v8uI5phI "Simulation results")
 
