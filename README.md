@@ -1,12 +1,29 @@
 # Udacity Self Driving car Nanodegree Term3 System integration project introduction
 
-### algorithm
+### Algorithm
+Whole algorithm is based on ROS system. There are three main part.
+1. waypoint updater node 
+2. traffic light state process node
+3. drive by wire node. 
+![whole process](https://github.com/Fred159/CarND-Term3-System-Integration-Project/blob/master/imgs/final-project-ros-graph-v2.png)
+
+The code structure is shown as below.
 
 
 ### Issues with udacity repo 
 - I think In system integration project. The message type 'float32 steering_wheel_angle_cmd' should be change into 'float32 steering_wheel_cmd' . Because I think as link shows there are no message named with 'float32 steering_wheel_angle_cmd' (refer to [this link](https://bitbucket.org/DataspeedInc/dbw_mkz_ros/src/default/dbw_mkz_msgs/msg/SteeringReport.msg))
 
 ### Results
+The simulation results shows that algorithm works appropriately. Sometimes I think the PID controller should be tuned more.
+
+- Success build
+
+- Initialization
+
+- Stop at red line
+
+- Go when light change into green
+
 
 [![Youtube Video of simulation](https://github.com/Fred159/CarND-Term3-System-Integration-Project/blob/master/resultsIMG/Initialize_state.png)](https://youtu.be/co9v8uI5phI "Simulation results")
 
