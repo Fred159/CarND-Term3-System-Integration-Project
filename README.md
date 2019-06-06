@@ -1,4 +1,4 @@
-# Udacity Self Driving car Nanodegree Term3 System integration project introduction
+# Udacity Self Driving Car Nanodegree Term3 System Integration Project Introduction
 
 ### Algorithm
 Whole algorithm is based on ROS system. There are three main part.
@@ -10,7 +10,7 @@ Whole algorithm is based on ROS system. There are three main part.
 The code structure is shown as below.
 ![Code Structure of Project](https://github.com/Fred159/CarND-Term3-System-Integration-Project/blob/master/resultsIMG/Code_structure.png)
 
-### Issues with udacity repo 
+### Issues with udacity original repository 
 - I think In system integration project. The message type 'float32 steering_wheel_angle_cmd' should be change into 'float32 steering_wheel_cmd' . Because I think as link shows there are no message named with 'float32 steering_wheel_angle_cmd' (refer to [this link](https://bitbucket.org/DataspeedInc/dbw_mkz_ros/src/default/dbw_mkz_msgs/msg/SteeringReport.msg))
 
 ### Results
