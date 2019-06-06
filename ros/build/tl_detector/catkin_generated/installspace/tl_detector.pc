@@ -1,0 +1,8 @@
+prefix=/home/ming/myCarND-Capstone/ros/install
+
+Name: tl_detector
+Description: Description of tl_detector
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ming/myCarND-Capstone/ros/install/lib 
+Requires: 
