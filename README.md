@@ -13,6 +13,14 @@ The code structure is shown as below.
 ### 2. Issues with udacity original repository 
 - I think In system integration project. The message type 'float32 steering_wheel_angle_cmd' should be change into 'float32 steering_wheel_cmd' . Because I think as link shows there are no message named with 'float32 steering_wheel_angle_cmd' (refer to [this link](https://bitbucket.org/DataspeedInc/dbw_mkz_ros/src/default/dbw_mkz_msgs/msg/SteeringReport.msg))
 
+- Errors like below : 
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/bin/catkin_make", line 13, in <module>
+    from catkin.terminal_color import disable_ANSI_colors, fmt
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/catkin/terminal_color.py", line 2, in <module>
+    from catkin_pkg.terminal_color import *  # noqa
+ImportError: No module named terminal_color
+ can fixed by this command in terminal : pip install --upgrade catkin_pkg_modules
 ### 3. Results
 The simulation results shows that algorithm works appropriately. Sometimes I think the PID controller should be tuned more.
 
