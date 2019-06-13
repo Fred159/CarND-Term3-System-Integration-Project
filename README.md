@@ -21,6 +21,10 @@ Traceback (most recent call last):
     from catkin_pkg.terminal_color import *  # noqa
 ImportError: No module named terminal_color
  can fixed by this command in terminal : pip install --upgrade catkin_pkg_modules
+  
+  - https://github.com/Praveenraj49/CarND-Capstone/blob/master/README.md for dbw_mkz_msgs_DIR error
+  
+  
 ### 3. Results
 The simulation results shows that algorithm works appropriately. Sometimes I think the PID controller should be tuned more.
 
