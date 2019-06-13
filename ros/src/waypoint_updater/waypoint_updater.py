@@ -28,8 +28,8 @@ TODO (for Yousuf and Aaron): Stopline location for each traffic light.
 # this is the full waypoint updater node. Ming 20190605
 
 
-LOOKAHEAD_WPS = 200 # Number of waypoints we will publish. You can change this number
-MAX_DECEL = 0.4 # user defined.
+LOOKAHEAD_WPS = 50 # Number of waypoints we will publish. You can change this number
+MAX_DECEL = 0.3 # user defined.
 
 #way point updatae runs in 50hz as it defined.
 class WaypointUpdater(object):
@@ -119,7 +119,7 @@ class WaypointUpdater(object):
             p.pose = wp.pose
             # define the stop index for vehicle.  The stopline_wp_idx is get from the traffic_cb function. Everytime
             # the call back function is called, 
-            stop_idx = max(self.stopline_wp_idx - closest_idx -3 , 0)
+            stop_idx = max(self.stopline_wp_idx - closest_idx -2 , 0)
             dist = self.distance(waypoints, i, stop_idx)
             vel =  math.sqrt( 2 * MAX_DECEL * dist)
             if vel < 1:
