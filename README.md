@@ -27,6 +27,7 @@ ImportError: No module named terminal_color
   
 ### 3. Results
 The simulation results shows that algorithm works appropriately. Sometimes I think the PID controller should be tuned more.
+And is the LOOKAHEAD_WP set too large, then in s curve geometry, the vehicle's path becomes strange. As a result, vehicle controller can't work well. In my case, my vehicle ran out of the track.
 
 - Success build
 ![Success build](https://github.com/Fred159/CarND-Term3-System-Integration-Project/blob/master/resultsIMG/Success_run.png)
